@@ -77,4 +77,4 @@ class Hero(Resource):
 api.add_resource(Hero, '/hero')
 
 if __name__ == '__main__':
-    app.run(debug=False, host='192.168.0.100', port=5000)
+    app.run()
