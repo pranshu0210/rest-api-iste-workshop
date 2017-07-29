@@ -11,8 +11,8 @@ api = Api(app)
 
 mysql = MySQL()
 
-app.config['MYSQL_DATABASE_USER'] = 'root'
-app.config['MYSQL_DATABASE_PASSWORD'] = 'mysql'
+app.config['MYSQL_DATABASE_USER'] = '' #Enter your username here
+app.config['MYSQL_DATABASE_PASSWORD'] = '' #Enter your password here
 app.config['MYSQL_DATABASE_DB'] = 'heroesdb'
 app.config['MYSQL_DATABASE_HOST'] = 'localhost'
 
